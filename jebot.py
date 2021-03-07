@@ -1,4 +1,4 @@
-#    Copyright (c) 2021 MrC《》VENOM <https://t.me/MrC_VENOM>
+#    Copyright (c) 2021 Infinity BOTs <https://t.me/Infinity_BOTs>
  
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -81,12 +81,12 @@ async def song(client, message):
     #if args.startswith("/help"):
         #return ""    
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @MrC_VENOM</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Infinity_BOTs 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/MrC_VENOM")
+                                        "Developer", url="https://t.me/ImJanindu")
                                 ]]
                         ),
                parse_mode="html",
@@ -128,12 +128,12 @@ async def song(client, message):
         await message.reply("<b>Enter a song name❗\n\nExample: `/s guleba`</b>")
         return ""
     status = await message.reply(
-             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @MrC_VENOM</b>",
+             text="<b>Downloading your song, Plz wait 🥺\n\nMade by @Infinity_BOTs 🇱🇰</b>",
              disable_web_page_preview=True,
                         reply_markup=InlineKeyboardMarkup(
                             [[
                                     InlineKeyboardButton(
-                                        "Developer", url="https://t.me/MrC_VENOM")
+                                        "Developer", url="https://t.me/ImJanindu")
                                 ]]
                         ),
                parse_mode="html",
@@ -171,7 +171,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm a Song Downloader Bot
 
-Made by @MrC_VENOM
+Made by @ImJanindu 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -179,7 +179,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Owner", url="https://t.me/MrC_VENOM")
+                                            "Channel", url="https://t.me/Infinity_BOTs")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -210,7 +210,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>Send a song name to download song
 
-~ @MrC_VENOM</b>""",
+~ @Infinity_BOTs</b>""",
             reply_to_message_id=message.message_id
         )
     else:
@@ -232,7 +232,8 @@ print(
     """
 Bot Started!
 
-Owner @MrC_VENOM
+Join @Infinity_BOTs
 """
+)
 
 Jebot.run()
