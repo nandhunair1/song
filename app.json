@@ -9,7 +9,7 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/Songdl-tgbot",
+    "repository": "https://github.com/nandhunair1/song",
     "success_url": "https://t.me/MrC_VENOM",
     "env": {
         "TG_BOT_TOKEN": {
