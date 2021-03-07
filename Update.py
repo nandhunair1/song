@@ -234,6 +234,5 @@ Bot Started!
 
 Owner @MrC_VENOM
 """
-)
 
 Jebot.run()
